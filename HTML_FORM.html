@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Create Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .logo {
+            margin-top: 20px;
+            padding: 10p;
+        }
+
+        .form-box {
+            width: 350px;
+            border: 1px solid #ddd;
+            padding: 25px 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #a6a6a6;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        small {
+            font-size: 12px;
+            color: #555;
+            margin-top: -10px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #f0c14b;
+            border: 1px solid #a88734;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .links {
+            font-size: 14px;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+
+        .links a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Amazon Logo (outside the box) -->
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" width="100">
+
+    <!-- Amazon Form Box -->
+    <div class="form-box">
+        <h2>Create account</h2>
+
+        <label for="name">Your name</label>
+        <input type="text" id="name" placeholder="First and last name">
+
+        <label for="email">Mobile number or email</label>
+        <input type="text" id="email" placeholder="Enter mobile number or email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="At least 6 characters">
+        <small>Passwords must be at least 6 characters.</small>
+
+        <label for="repassword">Re-enter password</label>
+        <input type="password" id="repassword" placeholder="Re-enter password">
+
+        <button>Continue</button>
+
+        <p class="links">
+            By creating an account, you agree to Amazon's 
+            <a href="#">Conditions of Use</a> and 
+            <a href="#">Privacy Notice</a>.
+        </p>
+
+        <p class="links">
+            Already have an account? <a href="#">Sign in</a><br>
+            Buying for work? <a href="#">Create a free business account</a>
+        </p>
+    </div>
+</body>
+</html>
